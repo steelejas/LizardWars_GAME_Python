@@ -1,0 +1,33 @@
+pikachu = Character("Pocket Monster", "Pikachu", mhp, atk, spatk, df, spdf, agil, luck, 99, "none", [0,1,2,3], "I can't believe you didn't choose me!", taunt, 'C:/Users/student/Desktop/Jasmine S/Ultimate Deathmatch/resources/pikachu-right.png', 'C:/Users/student/Desktop/Jasmine S/Ultimate Deathmatch/resources/pikachu-left.png')
+	thunderwave = Attack(name, "Thunder Wave", 0, 100, stateffect, 0, "paralysis", "opp", (user_name + " ??? " + opp_name + " ???."))
+	thunderbolt = Attack("Thunderbolt", "special", 90, 100, stateffect, 0, othereffect, target, (user_name + " ??? " + opp_name + " ???."))
+	growl = Attack("Growl", "special", 0, 100, "-atk", 1, "none", "opp", (user_name + " growled menacingly."))
+	charge = Attack("Charge", "special", 0, 100, "+spatk", 1, "none", "user", (user_name + " charged electricity in its body."))
+	
+kacheek = Character("Neopian", "Kacheek", mhp, atk, spatk, df, spdf, agil, luck, 99, "none", [4,5,6,7], greeting, "How can I have any respect for someone with a default color?", 'C:/Users/student/Desktop/Jasmine S/Ultimate Deathmatch/resources/kacheek-right.png', 'C:/Users/student/Desktop/Jasmine S/Ultimate Deathmatch/resources/kacheek-left.png')
+	magicblast = Attack("Magic Blast", "special", 90, 90, "none", 0, "none", "opp", (user_name + " blasted " + opp_name + " with a mysterious glowing light."))
+	dropkick = Attack("Drop Kick", "physical", 70, 90, "none", 0, "none", "opp", (user_name + " drop kicked " + opp_name + "."))
+	callafriend = Attack("Call a Friend", "physical", 70, 100, "none", 0, "none", "opp", (user_name + " sicced a petpet on " + opp_name + "."))
+	soupkitchen = Attack("Soup Kitchen", "special", 0, 100, "+hp", 0, "none", "user", (user_name + " took a quick field trip to the local soup kitchen."))
+	
+cockerspaniel = Character("Webkinz", "Cocker Spaniel", "COCKER SPANIEL", 190, 70, 50, 100, 90, 100, 10, 99, "none", [8,9,10,11], "greeting", "taunt", 'C:/Users/student/Desktop/Jasmine S/Ultimate Deathmatch/resources/cockerspaniel-right.png', 'C:/Users/student/Desktop/Jasmine S/Ultimate Deathmatch/resources/cockerspaniel-left.png')
+	tackle = Attack("Tackle", "physical", 50, 100, stateffect, stateffect_strength, othereffect, target, (user_name + " lunged at " + opp_name + "."))
+	resourcedrain = Attack("Resource Drain", "special", 30, 95, "+hp", 0, "none", "user", (user_name + " drained " + opp_name + "'s money -- and their HP!"))
+	snuggle = Attack("Snuggle", "physical", 0, 100, "none", 0, "sleep", "opp", (user_name + " snuggled up to " + opp_name + "."))
+	gak = Attack("Gak", "special", 40, 90, "none", 0, "poison", "opp", (user_name + " convinced " + opp_name + " to try a horribly failed recipe."))
+	
+puffle = Character("Pet", "Puffle", "PUFFLE", 110, 80, 50, 70, 70, 15, 150, "none", [12,13,14,15], "greeting", "taunt", 'C:/Users/student/Desktop/Jasmine S/Ultimate Deathmatch/resources/puffle-right.png', 'C:/Users/student/Desktop/Jasmine S/Ultimate Deathmatch/resources/puffle-left.png')
+	headbutt = Attack("Headbutt", "physical", 70, 100, stateffect, stateffect_strength, othereffect, target, (user_name + " lunged at " + opp_name + "."))
+	implore = Attack("Implore", kind, 0, acc, stateffect, stateffect_strength, othereffect, target, (user_name + " ??? " + opp_name + " ???."))
+	bouncyball = Attack("Bouncy Ball", "physical", 40, 100, "+atk", 2, "none", "user", (user_name + " ??? " + opp_name + " ???."))
+	multiply = Attack("Multiply", "physical", 50, 100, "none", 0, "paralysis", target, (user_name + " ??? " + opp_name + " ???."))
+	
+	
+pikachu average stats lv50
+hp = 120
+atk = 80
+spatk = 80
+df = 70
+spdf = 80
+focus = 20
+agil = 120
